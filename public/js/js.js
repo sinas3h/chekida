@@ -36,3 +36,9 @@ function moreFunction() {
         console.log(1)
     }
 }
+
+
+// git branch -m main main2
+// git fetch origin
+// git branch -u origin/main2 main2
+// git remote set-head origin -a
