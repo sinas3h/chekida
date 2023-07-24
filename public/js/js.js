@@ -1,8 +1,12 @@
+
 let moreBlock = document.getElementById("moreBlock")
 let aboutSite = document.getElementById("aboutSite")
 let aboutSiteSpan = document.querySelector("#aboutSite > span")
 let moreP = document.querySelector("#moreBlock p")
 let moreSpan = document.querySelector("#moreBlock span svg")
+let menu = document.getElementById("menu")
+let menuBar = document.getElementById("menuBar")
+
 
 // aboutSite.classList.add("h-32")
 // moreSpan.classList.add("rotate-[-90deg]")
@@ -35,6 +39,22 @@ function moreFunction() {
     } else {
         console.log(1)
     }
+}
+
+menu.addEventListener ("click" , menuFunction )
+
+function menuFunction() {
+
+    if(menuBar.classList.contains("top-[-500px]")){
+        menuBar.classList.remove("top-[-500px]")
+        menuBar.classList.add("top-20")
+        document.getElementById('nav').style.filter = "none"
+    } else {
+        menuBar.classList.remove("top-20")
+        menuBar.classList.add("top-[-500px]")
+        
+    }
+    
 }
 
 
