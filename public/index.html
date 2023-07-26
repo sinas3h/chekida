@@ -15,12 +15,8 @@
         <nav id="nav" class="flex flex-col relative">
             <div class="container xl:max-w-[1100px] flex row justify-between items-center p-6">
                 <!-- hamburger menu icon -->
-                <div id="menu" class="cursor-pointer">
-                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line y1="1" x2="20" y2="1" stroke="#114B5F" stroke-width="2px" fill="none"></line>
-                        <line y1="8" x2="20" y2="8" stroke="#114B5F" stroke-width="2px" fill="none"></line>
-                        <line y1="15" x2="20" y2="15" stroke="#114B5F" stroke-width="2px" fill="none"></line>
-                   </svg>
+                <div id="menu" class="cursor-pointer transition-all">
+                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><line y1="1" x2="20" y2="1" stroke="#114B5F" stroke-width="2px" fill="none"></line><line y1="8" x2="20" y2="8" stroke="#114B5F" stroke-width="2px" fill="none"></line><line y1="15" x2="20" y2="15" stroke="#114B5F" stroke-width="2px" fill="none"></line></svg>
                 </div>
                 <!-- chekida icon -->
                 <div>
@@ -125,9 +121,41 @@
         </div>
         <!-- finish free book -->
 
+        <!-- start category bar -->
+        <div class="container xl:max-w-[1100px] overflow-x-auto my-8">
+            <ul class="w-max flex gap-2 md:gap-4 justify-start items-center">
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/e3e4a0beb712ae4902303babd62bdc3f.png" alt=""/>
+                    <a href="#">همه ی کتاب ها</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/2c640130a760e17fe1a8bb3c0911330d.png" alt=""/>
+                    <a href="#">کتاب های رایگان</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/f55e6b3dfd6da21f7b6717c66cc9f94b.png" alt=""/>
+                    <a href="#">صوتی ها</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/ca2c7b72233eb8db4ed90929ed46d97b.png" alt=""/>
+                    <a href="#">برای راه اندازی کسب و کار</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/01ac4036ae1ffff25c02be2cb9767433.png" alt=""/>
+                    <a href="#">برای شناخت بهتر خودت</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/41d6a42dde9bf1c274664fc1d435a6d5.png" alt=""/>
+                    <a href="#">برای عبور از سختی ها</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/388187df10d964e30bce22e1ab02a427.png" alt=""/>
+                    <a href="#">برای زندگی عاشقانه</a></li>
+                <li class="flex gap-1 justify-between items-center p-2 md:p-3 bg-gray-100 rounded-lg text-sm md:text-base font-light">
+                    <img class="w-5 md:w-6 h-auto" src="./assets/category/03835e4bde22a9db1cc124afa8ece8b9.png" alt=""/>
+                    <a href="#">برای آرامش زندگی</a></li>
+                
+            </ul>
+        </div>
+    <!-- finish category bar -->
+
         <!-- start newest books -->
-        <div class="container xl:max-w-[1100px] my-6 flex flex-col w-full">
-            <div class="flex flex-row justify-between items-center">
+        <div class="mx-auto xl:max-w-[1100px] my-6 flex flex-col">
+            <div class="container flex flex-row justify-between items-center">
                 <h1 class="text-lg md:text-2xl font-bold">جدیدترین خلاصه کتاب ها</h1>
                 <div class="flex flex-row justify-between items-center w-20 md:w-28 cursor-pointer">
                     <p class="text-xs text-gray-700 md:text-base md:ml-2">مشاهده بقیه</p>
@@ -139,7 +167,7 @@
                 </div>
             </div>
 
-            <div class=" overflow-x-auto">
+            <div class="container overflow-x-auto py-4">
                 <ul x-data="{
                     books:[
                         {id:1 , title:'مثل یک کارآفرینِ ثروتمند فکر کن!' , img:'./assets/newest/6e6679811b1614420ac780bb9bba3fbf.jpg' , writer:'دین گرازیوسی'},
@@ -152,7 +180,7 @@
                         {id:8 , title:'و بچه‌هات بابت خوندن این کتاب ازت قدردانی می‌کنن!' , img:'./assets/newest/c56970a23c873a4a095b6b2d724cec80.jpg' , writer:'فیلیپیا پری'}
                         ]
                     }"
-                    class="my-6 w-max flex gap-2 justify-start items-center">
+                    class="mt-4 w-max flex gap-2 justify-start items-center">
     
                     <template x-for="book in books" :key="book.id">
                         <li class="flex flex-col justify-between ml-4 w-32 lg:w-36 h-72">
