@@ -1,56 +1,72 @@
 @font-face {
     font-family: Dana;
     font-weight: 100;
-    src: url(../../public/assets/fonts/Dana/Dana-Thin.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-Thin.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-thin.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-thin.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight: 200;
-    src: url(../../public/assets/fonts/Dana/Dana-Light.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-Light.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-light.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-light.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight: 300;
-    src: url(../../public/assets/fonts/Dana/Dana-Regular.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-Regular.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-regular.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-regular.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight: 400;
-    src: url(../../public/assets/fonts/Dana/Dana-Medium.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-Medium.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-medium.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-medium.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight: 500;
-    src: url(../../public/assets/fonts/Dana/Dana-DemiBold.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-DemiBold.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-demibold.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-demibold.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight: 600;
-    src: url(../../public/assets/fonts/Dana/Dana-Bold.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-Bold.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-bold.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-bold.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight: 700;
-    src: url(../../public/assets/fonts/Dana/Dana-ExtraBold.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-ExtraBold.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-extrabold.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-extrabold.eot) format('eot');
 }
 
 @font-face {
     font-family: Dana;
     font-weight:800;
-    src: url(../../public/assets/fonts/Dana/Dana-Black.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-Black.woff2) format('woff2'),
+    url(../../public/assets/fonts/Dana/woff/dana-black.woff) format('woff'),
+    url(../../public/assets/fonts/Dana/eot/dana-black.eot) format('eot');
 }
 
 
 @font-face {
     font-family: Dana;
     font-weight:900;
-    src: url(../../public/assets/fonts/Dana/Dana-ExtraBlack.woff2);
+    src: url(../../public/assets/fonts/Dana/woff2/Dana-ExtraBlack.woff2) format('woff2');
 }
 
 @font-face {
