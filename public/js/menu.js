@@ -1,6 +1,7 @@
 let menu = document.getElementById("menu")
 let menuBar = document.getElementById("menuBar")
 
+
 menu.addEventListener ("click" , menuFunction )
 
 function menuFunction() {
