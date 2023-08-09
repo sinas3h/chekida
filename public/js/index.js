@@ -6,6 +6,8 @@ let moreP = document.querySelector("#moreBlock p")
 let moreSpan = document.querySelector("#moreBlock span svg")
 let menu = document.getElementById("menu")
 let menuBar = document.getElementById("menuBar")
+let listbooks = document.getElementById("listBooks")
+let next = document.getElementById("next")
 
 
 // aboutSite.classList.add("h-32")
@@ -55,6 +57,12 @@ function menuFunction() {
         menu.innerHTML = '<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><line y1="1" x2="20" y2="1" stroke="#114B5F" stroke-width="2px" fill="none"></line><line y1="8" x2="20" y2="8" stroke="#114B5F" stroke-width="2px" fill="none"></line><line y1="15" x2="20" y2="15" stroke="#114B5F" stroke-width="2px" fill="none"></line></svg>'
     }
     
+}
+
+next.addEventListener('click' , nextFunc)
+
+function nextFunc() {
+    listbooks.style.transform = 'translate3d(${+172}px, 0px, 0px)'
 }
 
 

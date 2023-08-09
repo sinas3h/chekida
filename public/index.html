@@ -190,7 +190,7 @@
                 </a>
             </div>
 
-            <div class="container overflow-x-auto py-4">
+            <div class="container overflow-auto snap-center py-4">
                 <ul x-data="{
                     books:[
                         {id:1 , title:'مثل یک کارآفرینِ ثروتمند فکر کن!' , img:'./assets/newest/6e6679811b1614420ac780bb9bba3fbf.jpg' , writer:'دین گرازیوسی'},
@@ -206,7 +206,7 @@
                     class="mt-4 w-max flex gap-1 lg:gap-2 justify-start items-center">
     
                     <template x-for="book in books" :key="book.id">
-                        <li class="flex flex-col justify-between ml-4 w-28 lg:w-36 h-64 lg:h-72">
+                        <li id="listBooks" class="flex flex-col justify-between ml-4 w-28 lg:w-36 h-64 lg:h-72">
                             <div>
                                 <img alt="newbook" class="w-28 lg:w-36 h-auto rounded-xl" :src="book.img">
                             </div>
@@ -224,6 +224,7 @@
                     </template>
     
                 </ul>
+                <span id="next">next</span>
             </div>
         </div>
         <!-- finish newest books -->

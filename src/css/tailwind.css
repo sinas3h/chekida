@@ -1,4 +1,30 @@
-@import url('../../src/css/fonts.css');
+@import url('/src/css/fonts.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d7d7d7;
+    border-radius: 0px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2FDD92;
+    border-radius: 0px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7d7d7d;
+}
+
+.scrolling-touch { -webkit-overflow-scrolling: touch; }
+  
