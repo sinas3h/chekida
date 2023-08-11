@@ -32,7 +32,7 @@
     src: url(/public/assets/fonts/Dana/eot/dana-thin.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-Thin.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-thin.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-Thin.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-Thin.ttf) format('TrueType');
 }
 
 @font-face {
@@ -41,7 +41,7 @@
     src: url(/public/assets/fonts/Dana/eot/dana-light.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-Light.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-light.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-Light.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-Light.ttf) format('TrueType');
 
 }
 
@@ -51,7 +51,7 @@
     src: url(/public/assets/fonts/Dana/eot/dana-regular.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-Regular.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-regular.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-Regular.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-Regular.ttf) format('TrueType');
 
 }
 
@@ -61,7 +61,7 @@
     src : url(/public/assets/fonts/Dana/eot/dana-medium.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-Medium.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-medium.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-Medium.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-Medium.ttf) format('opeTrueTypentype');
 
 }
 
@@ -71,7 +71,7 @@
     src: url(/public/assets/fonts/Dana/eot/dana-demibold.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-DemiBold.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-demibold.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-DemiBold.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-DemiBold.ttf) format('TrueType');
 
 }
 
@@ -81,7 +81,7 @@
     src: url(/public/assets/fonts/Dana/eot/dana-bold.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-Bold.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-bold.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-Bold.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-Bold.ttf) format('TrueType');
 
 }
 
@@ -91,7 +91,7 @@
     src: url(/public/assets/fonts/Dana/eot/dana-extrabold.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-ExtraBold.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-extrabold.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-ExtraBold.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-ExtraBold.ttf) format('TrueType');
 
 }
 
@@ -102,7 +102,7 @@
     url(/public/assets/fonts/Dana/eot/dana-black.eot) format('embedded-opentype'),
     url(/public/assets/fonts/Dana/woff2/Dana-Black.woff2) format('woff2'),
     url(/public/assets/fonts/Dana/woff/dana-black.woff) format('woff'),
-    url(/public/assets/fonts/Dana/ttf/Dana-Black.ttf) format('opentype');
+    url(/public/assets/fonts/Dana/ttf/Dana-Black.ttf) format('TrueType');
 
 }
   
