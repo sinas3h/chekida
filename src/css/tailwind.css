@@ -25,6 +25,4 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #7d7d7d;
 }
-
-.scrolling-touch { -webkit-overflow-scrolling: touch; }
   

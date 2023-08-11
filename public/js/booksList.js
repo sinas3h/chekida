@@ -1,52 +1,58 @@
-const newstBook = {
-  books: [
-    {
-      id: 1,
-      title: "مثل یک کارآفرینِ ثروتمند فکر کن!",
-      img: "./assets/newest/6e6679811b1614420ac780bb9bba3fbf.jpg",
-      writer: "دین گرازیوسی",
-    },
-    {
-      id: 2,
-      title: "توصیه‌های مامور FBI برای شناخت افراد خطرناک",
-      img: "./assets/newest/de0b1534cbb1a28ec8389317efa12a34.jpg",
-      writer: "جو ناوارو",
-    },
-    {
-      id: 3,
-      title: "خشتِ اولِ موفقیت",
-      img: "./assets/newest/614fdac66d588dbb8a469fc52348aa9f.jpg",
-      writer: "رابین شارما",
-    },
-    {
-      id: 4,
-      title: "راهنمای عملی برای زوجین",
-      img: "./assets/newest/be6353e2a961447f479f79e91ecdd1cc.jpg",
-      writer: "پائولا هال",
-    },
-    {
-      id: 5,
-      title: "چطور روزمون رو متمرکزتر شروع کنیم؟",
-      img: "./assets/newest/90507eb2fe1da29b702a24b3356d9f3d.jpg",
-      writer: "جیسون سِلک",
-    },
-    {
-      id: 6,
-      title: "اعتیاد مدرن که خطرش بیخ گوشمونه!",
-      img: "./assets/newest/b63660c89872da81930a3c74be33ebce.jpg",
-      writer: "گری ویلسون",
-    },
-    {
-      id: 7,
-      title: "تفکرات فیلسوفی که پادشاه روم بود",
-      img: "./assets/newest/98b0643aa62343f4bc6f5debaec89ea9.jpg",
-      writer: "مارکوس اورلیوس",
-    },
-    {
-      id: 8,
-      title: "و بچه‌هات بابت خوندن این کتاب ازت قدردانی می‌کنن!",
-      img: "./assets/newest/c56970a23c873a4a095b6b2d724cec80.jpg",
-      writer: "فیلیپیا پری",
-    },
-  ],
-};
+export const newstbooks = [
+  {
+    id: 1,
+    name: "عادات موفقیت ثروتمندان",
+    title: "مثل یک کارآفرینِ ثروتمند فکر کن!",
+    img: "./assets/newest-books/grace-of-the-rich.jpg",
+    writer: "دین گرازیوسی",
+  },
+  {
+    id: 2,
+    name: "تاملات",
+    title: "تفکرات فیلسوفی که پادشاه روم بود",
+    img: "./assets/newest-books/Reflections.jpg",
+    writer: "مارکوس اورلیوس",
+  },
+  {
+    id: 3,
+    name: "بهبود روابط زناشویی به زبان آدمیزاد",
+    title: "راهنمای عملی برای زوجین",
+    img: "./assets/newest-books/Improving-relations.jpg",
+    writer: "پائولا هال",
+  },
+  {
+    id: 4,
+    name: "باشگاه پنج صبحی ها",
+    title: "خشتِ اولِ موفقیت",
+    img: "./assets/newest-books/Club-5-morning.jpg",
+    writer: "رابین شارما",
+  },
+  {
+    id: 5,
+    name: "فردا را از امروز سامان بده",
+    title: "چطور روزمون رو متمرکزتر شروع کنیم؟",
+    img: "./assets/newest-books/Organize-tomorrow.jpg",
+    writer: "جیسون سِلک",
+  },
+  {
+    id: 6,
+    name: "می دانم چرا پرنده در قفس می خواند",
+    title: "زندگینامه مربی معنوی اپرا وینفری",
+    img: "./assets/newest-books/bird-in-cage.jpg",
+    writer: "مایا آنجلو",
+  },
+  {
+    id: 7,
+    name: "کتابی که آرزو می کنید والدینتان خوانده بودند",
+    title: "و بچه‌هات بابت خوندن این کتاب ازت قدردانی می‌کنن!",
+    img: "./assets/newest-books/Wish-book.jpg",
+    writer: "فیلیپیا پری",
+  },
+  {
+    id: 8,
+    name: "شخصیت های خطرناک",
+    title: "توصیه‌های مامور FBI برای شناخت افراد خطرناک",
+    img: "./assets/newest-books/Dangerous-characters.jpg",
+    writer: "جو ناوارو",
+  },
+];

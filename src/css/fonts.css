@@ -61,16 +61,3 @@
     url(/public/assets/fonts/Dana/woff/dana-black.woff) format('woff'),
     url(/public/assets/fonts/Dana/eot/dana-black.eot) format('eot');
 }
-
-
-@font-face {
-    font-family: Dana;
-    font-weight:900;
-    src: url(/public/assets/fonts/Dana/woff2/Dana-ExtraBlack.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: Dana;
-    font-weight:1000;
-    src: url(/public/assets/fonts/Dana/Dana-fat.woff2);
-}
