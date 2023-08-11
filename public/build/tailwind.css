@@ -388,6 +388,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 100;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-thin.eot);
         src: url(/public/assets/fonts/Dana/eot/dana-thin.eot?#iefix?) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-Thin.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-thin.woff) format('woff'),
@@ -397,6 +399,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 200;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-light.eot);
         src: url(/public/assets/fonts/Dana/eot/dana-light.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-Light.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-light.woff) format('woff'),
@@ -407,6 +411,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 300;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-regular.eot);
         src: url(/public/assets/fonts/Dana/eot/dana-regular.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-Regular.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-regular.woff) format('woff'),
@@ -417,6 +423,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 400;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-medium.eot);
         src : url(/public/assets/fonts/Dana/eot/dana-medium.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-Medium.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-medium.woff) format('woff'),
@@ -427,6 +435,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 500;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-demibold.eot);
         src: url(/public/assets/fonts/Dana/eot/dana-demibold.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-DemiBold.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-demibold.woff) format('woff'),
@@ -437,6 +447,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 600;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-bold.eot);
         src: url(/public/assets/fonts/Dana/eot/dana-bold.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-Bold.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-bold.woff) format('woff'),
@@ -447,6 +459,8 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight: 700;
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-extrabold.eot);
         src: url(/public/assets/fonts/Dana/eot/dana-extrabold.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-ExtraBold.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-extrabold.woff) format('woff'),
@@ -457,8 +471,9 @@ video {
     @font-face {
         font-family: 'Dana';
         font-weight:800;
-        src:
-        url(/public/assets/fonts/Dana/eot/dana-black.eot?#iefix) format('embedded-opentype'),
+        font-style: normal;
+        src: url(/public/assets/fonts/Dana/eot/dana-black.eot);
+        src: url(/public/assets/fonts/Dana/eot/dana-black.eot?#iefix) format('embedded-opentype'),
         url(/public/assets/fonts/Dana/woff2/Dana-Black.woff2) format('woff2'),
         url(/public/assets/fonts/Dana/woff/dana-black.woff) format('woff'),
         url(/public/assets/fonts/Dana/ttf/Dana-Black.ttf) format('truetype');
