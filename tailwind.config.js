@@ -9,7 +9,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'sans' : ["Dana"] 
+        'sans': ['Dana'],
+      'serif': ['Dana'],
+      'mono': ['Dana'],
+      'display': ['Dana'],
+      'body': ['Dana'], 
       }
     },
     screens: {
