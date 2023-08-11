@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans : ["Dana"] 
+        'sans' : ["Dana"] 
       }
     },
     screens: {
