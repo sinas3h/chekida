@@ -6,7 +6,7 @@ newstbooks.map((book) => {
     newstBooksUl.insertAdjacentHTML('beforeend' , `
     <li class="flex flex-col justify-between ml-4 w-28 lg:w-36 h-64 lg:h-72">
                             <a id="imageBook"  href="./book-detail.html?name=${book.id}">
-                                <img alt="newbook${book.id}" class="w-28 lg:w-36 h-auto rounded-xl" src=${book.img}>
+                                <img alt="newbook${book.id}" class="w-28 lg:w-36 h-auto rounded-xl shadow-md transition-all" src=${book.img}>
                             </a>
                             <p class="text-sm text-cyan-900 line-clamp-2">${book.title}</p>
                             <div class="flex justify-between items-center">
